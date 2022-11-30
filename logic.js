@@ -1,6 +1,6 @@
 var d = new Date();
-var todaysDate = d.getDate();
-// var todaysDate = 2;
+// var todaysDate = d.getDate();
+var todaysDate = 1;
 var target = $('#calendar .drop .content .day');
 
 target.each(function(){
@@ -31,7 +31,7 @@ $('.drop').click(function() {
     $('#modal').addClass('active');
     $('#modal .wrapper .wrappercontent .box').html("<h2>Who is this handsome naughty boy, who trying see what coming :o</h2> <p>Szabi, it's too early to open this day ^^ <br> Meow</p>");
     
-    // localStorage.removeItem('className');
+    localStorage.removeItem('className');
 } 
   if ($(this).hasClass('today')) {
     $(this).addClass('active');
